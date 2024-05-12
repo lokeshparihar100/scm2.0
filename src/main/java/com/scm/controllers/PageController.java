@@ -14,4 +14,14 @@ public class PageController {
         model.addAttribute("githubRepo", "https://github.com/lokeshparihar100/scm2.0");
         return "Home";
     }
+
+    @RequestMapping("/about")
+    public String aboutPage() {
+        return "about";
+    }
+
+    @RequestMapping("/services")
+    public String servicesPage() {
+        return "services";
+    }
 }

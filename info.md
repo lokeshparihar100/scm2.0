@@ -21,5 +21,6 @@ create out file for tailwind.
 
 note: we need to run this command everytime when we open project.
 
-# Flowbile
+# Flowbite
 Add CDN of flowbite from https://flowbite.com/docs/getting-started/quickstart/#include-via-cdn
+

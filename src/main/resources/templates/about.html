@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is about page.</h1>
+    <hr> 
+    <!--Parent Fragment Starts from Here
+    Here, th:insert will insert the fragment inside 'about-tag' div.
+          th:replace will replace the existing 'about-tag' div with fragment-->
+    <div class="about-tag" th:insert="~{base :: parent}"></div>
+    <hr>
+    <div class="about-tag" th:replace="~{base :: parent}"></div>
+</body>
+</html>
